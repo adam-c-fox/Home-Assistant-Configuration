@@ -1,0 +1,20 @@
+- platform: rpi_rf
+  gpio: 27
+  switches:
+      Living Room Lamp:
+        code_on: 15446287
+        code_off: 15446286
+      Table Lamp:
+        code_on: 15446285
+        code_off: 15446284
+      LEDs:
+        code_on: 15446283
+        code_off: 15446282
+        signal_repetitions: 20
+      Adam Desk Lamp:
+        code_on: 15446279
+        code_off: 15446278
+      Ellis Room Lamp:
+        code_on: 15446277
+        code_off: 15446276
+        signal_repetitions: 40 

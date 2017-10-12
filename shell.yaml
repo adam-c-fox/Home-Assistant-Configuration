@@ -1,0 +1,3 @@
+stereo_power_toggle: 'irsend send_once stereo KEY_POWER'
+stereo_volume_up: 'irsend send_once stereo KEY_VOLUMEUP'
+stereo_volume_down: 'irsend send_once stereo KEY_VOLUMEDOWN'

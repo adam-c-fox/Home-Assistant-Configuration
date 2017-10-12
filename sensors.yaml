@@ -1,0 +1,16 @@
+  - platform: yr
+
+  - platform: mqtt
+    state_topic: "sensor1/temperature"  
+    name: "temperature"  
+    unit_of_measurement: "°C"  
+
+  - platform: mqtt
+    state_topic: "sensor1/humidity"  
+    name: "humidity"  
+    unit_of_measurement: "%"  
+
+  - platform: mqtt
+    state_topic: "sensor1/light"  
+    name: "light"  
+    unit_of_measurement: "LUX"  

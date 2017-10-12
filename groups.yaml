@@ -1,0 +1,58 @@
+###################
+#GROUPS
+###################
+
+Adam:
+  name: Adam
+  entities:
+    - device_tracker.adamphone
+    - device_tracker.adammac
+    - device_tracker.adamdesktop
+    - device_tracker.ipad
+
+Alex:
+  name: Alex
+  entities:
+    - device_tracker.alexphone
+
+Ellis:
+  name: Ellis
+  entities:
+    - device_tracker.ellisphone
+
+sensornode:
+  name: Sensor Node
+  entities:
+    - sensor.temperature
+    - sensor.humidity
+    - sensor.light
+
+stereo:
+  name: Stereo
+  entities:
+    - script.stereoon
+    - script.stereovoldown
+    - script.stereovolup
+
+lounge:
+  name: Lounge
+  entities:
+    - switch.living_room_lamp
+    - switch.table_lamp
+    - switch.leds
+
+###################
+#VIEWS
+###################
+
+devicetracker:
+  name: Scripts
+  view: yes
+  entities:
+    - group.stereo
+
+sensors:
+  name: sensors
+  view: yes
+  entities:
+    - group.sensornode

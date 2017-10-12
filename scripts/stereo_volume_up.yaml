@@ -1,0 +1,4 @@
+stereovolup:
+  alias: Stereo volume up
+  sequence:
+    - service: shell_command.stereo_volume_up

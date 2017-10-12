@@ -1,0 +1,4 @@
+stereovoldown:
+  alias: Stereo volume down
+  sequence:
+    - service: shell_command.stereo_volume_down

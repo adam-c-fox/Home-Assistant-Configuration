@@ -1,0 +1,4 @@
+stereoon:
+  alias: Stereo power toggle
+  sequence:
+    - service: shell_command.stereo_power_toggle

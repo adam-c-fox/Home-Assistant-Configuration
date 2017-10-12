@@ -1,0 +1,10 @@
+  # - alias: NotifyMotion
+  #   trigger:
+  #     platform: state
+  #     entity_id: binary_sensor.ip_webcam_motion_active
+  #     to: 'on'
+  #   action:
+  #     service: notify.AdamPushbullet
+  #     data_template:
+  #         title: "Motion detected."
+  #         message: "testing."
