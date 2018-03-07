@@ -17,13 +17,13 @@
     payload_off: "15446282"
 
   - platform: mqtt
-    name: "Switch4"
+    name: "Bedside Light"
     command_topic: "433transmitter/rfcode"
     payload_on: "15446279"
     payload_off: "15446278"
 
   - platform: mqtt
-    name: "Switch5"
+    name: "Desk Lamp"
     command_topic: "433transmitter/rfcode"
     payload_on: "15446277"
     payload_off: "15446276"
